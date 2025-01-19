@@ -1,0 +1,134 @@
+body{
+    color: #ffc107 !important;
+    background-color: gray;
+   
+}
+/* header start */ 
+header{
+    min-height: 80px;
+    background-color: #001d3d;
+    padding: 0px 0;
+ }
+ .c_nav{}
+ .navbar-light .navbar-toggler-icon{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }
+ .nbtn:focus{
+   box-shadow: none;
+
+ }
+ .logo a h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #ffc107;
+}
+
+ .menu{}
+ .menu ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffc107 !important;
+    padding: 0 10px !important;
+ }
+ .menu ul li a:hover {
+    color: white !important;
+}
+.bt{
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 10px;
+  background-color: #ffc107;
+  border-radius: 10px;
+}
+.bt:hover {
+  color: black;
+  background-color: white; !important;
+}
+/* testimony */
+.banner{
+    color: #ffc107;
+    background: black;
+    min-height: 300px;    
+ }
+ .slide1{
+  width: 100%;  
+ }
+ 
+ .t_item{
+    margin-top: 100px;
+ }
+ .b_text{
+  color: #ffc107;
+  margin-top: 50px;
+  line-height: 60px;
+ }
+ .wel{
+  font-size: 30px;
+ }
+ .h_text{
+  font-size: 45px;
+  font-weight: 700;
+  
+ }
+ .s_text{
+  font-size: 16px;
+ }
+ .t_img{}
+ .t_img img{
+    width: 100%;
+ }
+/* /*about*/
+ .about {}
+ .about h3 {
+    padding-bottom: 30px;
+ }
+ 
+.about, .services, .features, .vehicles, .gallery, .contact {
+    padding-top: 50px;
+}
+
+.service-box, .vehicle-box, .gallery-box, .blog-box {
+    /*border: 1px solid #ddd;*/
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.service-box img {
+   width: 50%;
+}
+.s_i{
+    width: 50%;
+}
+.contact img{
+    max-width: 150px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.contact h2 {
+    
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: -5px;
+}
+
+.c_form {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #343a40;
+    color: #ffc107;
+    padding: 30px 0;
+}
+
+.social_link a img {
+    width: 30px;
+    margin: 0 6px;
+}
+.f_bottom {
+    margin-top: 20px;
+}

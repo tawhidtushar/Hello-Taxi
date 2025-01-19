@@ -1,0 +1,75 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.menu ul li a {
+    font-size: 16px;
+    line-height: 35px;
+}
+.logo {
+    font-size: 30px;
+}
+.b_text{
+	line-height: 40px;
+}
+.wel{
+	font-size: 20px;
+ }
+ .h_text{
+ 	font-size: 35px;
+ }
+ .s_text{
+	line-height: 25px;
+}
+.about, .services, .features, .vehicles, .gallery, .contact {
+    padding-top: 30px;
+}
+.contact img {
+    margin-bottom: 10px;
+}
+.contact h2 {
+    
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: -5px;
+}
+.contact h5 {
+    font-size: 14px;
+}
+.c_form {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+.logo {
+    font-size: 35px;
+}
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.menu ul li a {
+    font-size: 16px;
+    line-height: 35px;
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ .menu ul li a {
+    font-size: 16px;
+    line-height: 35px;
+    padding-right: 0px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+
+/* extra extra Large devices (desktops, 1400px and up)*/
+@media (min-width: 1400px)  {  }
